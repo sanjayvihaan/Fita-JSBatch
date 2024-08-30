@@ -13,3 +13,7 @@ Install Extension: Live Server, Prettier - Code formatter
 
 # Day 3 - JS Basic (29-08-24)
     1. Operators
+
+
+# Day 4 - JS Basic (30-08-24)
+    1. JS Array
