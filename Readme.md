@@ -20,3 +20,13 @@ Install Extension: Live Server, Prettier - Code formatter
 
 
 # Day 5 - JS Basic (02-08-24)
+    1.Alpabetic Sort
+        // Array sort()
+        // Array reverse()
+        // Array toSorted()
+        // Array toReversed()
+    2. Conditions Statements
+        // Simple if
+        // If - Else
+        // Else - If
+        // Ternary Operator
