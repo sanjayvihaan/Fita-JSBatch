@@ -108,3 +108,59 @@ for (let i = 0; i < cars.length; i++) {
 if(!found) {
     console.log(`${searchEle} not found in the array`);
 }
+
+
+
+//---------------------- Array Sort -------------------------------
+
+// Alpabetic Sort
+    // Array sort()
+    // Array reverse()
+    // Array toSorted()
+    // Array toReversed()
+
+
+// ---------- Array Sort()
+
+let fruits = ["Mango", "Apple", "Grapes", "Orange", "Banana"];
+console.log(fruits);
+let sortedFruits = fruits.sort();
+console.log(sortedFruits);
+console.log(fruits);
+
+// ----------- Array reverse()
+
+let reverseFruits = sortedFruits.reverse();
+console.log(reverseFruits);
+
+// By combining sort() and reverse() we can sort an array in descending order
+
+
+
+// ------------------------ Array toSorted() -------------------
+
+let months = ['Jan', 'Feb', 'Mar', 'Apr'];
+
+let sortedMonths = months.toSorted();
+
+console.log(months);
+console.log(sortedMonths);
+
+
+// ------------------------ Array toReversed() ----------
+
+let lang = ["python", "JavaScript", "Java", "C", "Go", "Rust"];
+
+let reversedLang = lang.toReversed();
+
+console.log(lang);
+console.log(reversedLang);
+
+
+// ------------------------ Numeric Sort ---------------------------
+    // Numeric Sort
+    // Random Sort
+    // Math.min()
+    // Math.max()
+    // Home made Min()
+    // Home made Max()
