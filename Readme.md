@@ -37,3 +37,9 @@ Install Extension: Live Server, Prettier - Code formatter
         1. For loop
         2. while loop
         3. do-while loop
+
+    // 1. Task - Print All the Even Number from 1 - 100
+       2. Task - Display Sum of n Natural Numbers
+       3. Task - Iterate Through an Array 
+                lang = ["Python", "JavaScript", "React", NodeJS, "Go"]
+        
