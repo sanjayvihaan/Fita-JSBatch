@@ -30,3 +30,10 @@ Install Extension: Live Server, Prettier - Code formatter
         // If - Else
         // Else - If
         // Ternary Operator
+
+# Day 6 - JS Basic (05-08-24)
+    1. Switch Case
+    2. JS Loops
+        1. For loop
+        2. while loop
+        3. do-while loop
