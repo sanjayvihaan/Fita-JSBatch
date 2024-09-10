@@ -19,7 +19,7 @@ Install Extension: Live Server, Prettier - Code formatter
     1. JS Array
 
 
-# Day 5 - JS Basic (02-08-24)
+# Day 5 - JS Basic (02-09-24)
     1.Alpabetic Sort
         // Array sort()
         // Array reverse()
@@ -31,7 +31,7 @@ Install Extension: Live Server, Prettier - Code formatter
         // Else - If
         // Ternary Operator
 
-# Day 6 - JS Basic (05-08-24)
+# Day 6 - JS Basic (05-09-24)
     1. Switch Case
     2. JS Loops
         1. For loop
@@ -42,4 +42,14 @@ Install Extension: Live Server, Prettier - Code formatter
        2. Task - Display Sum of n Natural Numbers
        3. Task - Iterate Through an Array 
                 lang = ["Python", "JavaScript", "React", NodeJS, "Go"]
-        
+
+# Day 7 - JS Basic (10-09-2024)
+    1. JS Loops
+        1. For loop
+        2. while loop
+        3. do-while loop
+
+
+        // Task - Factorial of a number
+        // num = 6;
+        // 1*2*3*4*5*6 = 720
