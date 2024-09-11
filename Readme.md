@@ -53,3 +53,9 @@ Install Extension: Live Server, Prettier - Code formatter
         // Task - Factorial of a number
         // num = 6;
         // 1*2*3*4*5*6 = 720
+
+
+# Day 8 - JS Basic (11-09-2024)
+    1. JS Iterator
+    2. JS Function
+    
