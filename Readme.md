@@ -59,3 +59,14 @@ Install Extension: Live Server, Prettier - Code formatter
     1. JS Iterator
     2. JS Function
     
+
+# Day 9 - JS Basic (12-09-2024)
+    1. JS Function
+        - return : When the JS reach a return statement, the function will stop executing. 
+        Why we use Function?
+        - Function can be re-useable again and again for many times
+        - We can use the same code with the different arguments, to produce different results.
+
+        2. Function with default values
+        3. Project - Generating Ramdom Password
+        4. Validate Email Format
