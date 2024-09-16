@@ -161,3 +161,110 @@ if(validEmail(email)) {
 else {
     console.log("This email is not valid: ", email);
 }
+
+
+
+// ========================Task - Calculate Total Price of Items in a Cart ==========================
+
+function calCartTotal(product) {
+    let total = 0;
+
+    for (let item of product) {
+        total += item.price * item.quantity;
+    }
+
+    return total;
+}
+
+
+let shopingProducts = [
+    {name: "Oneplus", price: 29998.00, quantity: 2},
+    {name: "Oneplus Back cover", price:200, quantity: 2},
+    {name: "Charger", price: 1000, quantity: 2},
+    {name: "Earphone", price: 5999, quantity: 2}
+]
+
+
+let myCartTotal = calCartTotal(shopingProducts);
+console.log(myCartTotal);
+
+
+
+// ======================== Greet the user Based on the Time of Day ======================
+
+function greetUser(){
+    let currentTime = new Date().getHours(); //Get the current Hour (0-23)
+
+    if (currentTime < 12) {
+        return "Good Morning!"
+    } else if (currentTime < 16) {
+        return "Good Afternoon"
+    } else if (currentTime < 20) {
+        return "Good Evening"
+    }else {
+        return "Good Night!"
+    }
+}
+
+console.log(greetUser()); // Output changes based on the current time
+
+
+// ================= Checking if a user is logged In =======================
+
+function isUserLoggedIn(username) {
+    if (username) {
+        return true; // If username exists, user is logged In
+    }
+    else {
+        return false; // If no username, user is not logged In
+    }
+}
+
+let username = ""; // This can be getting from the login system of the application
+let loggedIn = isUserLoggedIn(username);
+console.log(loggedIn);
+
+if (loggedIn) {
+    console.log("Welcome back "+ username);
+}
+else {
+    console.log("Please login in");
+}
+
+
+// Task - Calucate Discount on a Price = price, discount
+// price = 100
+// discount = 10
+
+// final pice = 90
+
+// Convert Celsius to Fahrenheit
+
+
+// ===================== Calculate Discount on a price ==========================
+
+function calDiscount(price, discount) {
+    let discountPrice = price - (price * discount / 100);
+    return discountPrice;
+}
+
+let myOrgPrice = 200;
+let disc = 50;
+
+let finalPrice = calDiscount(myOrgPrice, disc);
+
+console.log(finalPrice);
+
+
+// ================== Converting Celsisu to Fahrenheit ==================
+
+function celToFahren(cel) {
+    let Fahrenheit = (cel * 9/5) + 32;
+    return Fahrenheit;
+}
+
+
+let tempInCel = 42;
+let tempInFahren = celToFahren(tempInCel);
+
+console.log(tempInFahren);

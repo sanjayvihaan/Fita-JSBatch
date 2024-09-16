@@ -70,3 +70,22 @@ Install Extension: Live Server, Prettier - Code formatter
         2. Function with default values
         3. Project - Generating Ramdom Password
         4. Validate Email Format
+
+
+# Day 10 - JS Basic (13-09-24)
+    1. JS Function - Revise
+        a. Task - Calculate Total Price of Items in a Cart
+        b. Greet the user Based on the Time of Day
+        c. Checking if a user is logged In
+
+    // Task - Calucate Discount on a Price = price, discount
+        // price = 100
+        // discount = 10
+        // final pice = 90
+
+    // Convert Celsius to Fahrenheit
+
+
+# Day 11 - JS Intermediate (16-09-24)
+    1. JS Function - Task Revise
+    2. Introduction to JS DOM and HTML DOM
