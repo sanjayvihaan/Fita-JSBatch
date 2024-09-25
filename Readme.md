@@ -89,3 +89,8 @@ Install Extension: Live Server, Prettier - Code formatter
 # Day 11 - JS Intermediate (16-09-24)
     1. JS Function - Task Revise
     2. Introduction to JS DOM and HTML DOM
+
+# Day 12 - JS Intermediate (25-09-24)
+    1. Finding HTML Elements - DOM
+    2. Changing HTML Elements - DOM
+    3. Adding and Deleting Elements - DOM

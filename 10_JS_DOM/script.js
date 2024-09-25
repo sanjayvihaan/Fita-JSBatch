@@ -61,3 +61,76 @@ let sentence = document.getElementById('demoDOM').innerHTML = tempInFahren;
 // 3. document.appendChild(elementName)
 // 4. document.replaceChild(new, old)
 // 5. document.write(text)
+
+
+// Finding Elements:
+let h2 = document.getElementById('demoH2');
+console.log(h2);
+
+//Adding value to the element
+h2.innerHTML = "Learning JS DOM";
+
+
+// Adding Image using DOM
+let myImg = document.getElementById('myImg');
+console.log(myImg);
+
+// Adding image url
+myImg.src = "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png";
+
+
+
+// ================= Selecting elements using tagname =================
+
+let allP = document.getElementsByTagName('p');
+console.log(allP);
+
+allP[0].innerHTML = "Learning JS DOM";
+allP[0].style.backgroundColor = "red";
+
+// for (let i = 0; i < allP.length; i++) {
+//     allP[i].innerHTML = "Learning JS DOM";
+//     allP[i].style.backgroundColor = "yellow";
+// }
+
+
+// ================== Selecting elements using ClassName ===============
+
+let classText = document.getElementsByClassName('classH2');
+console.log(classText);
+
+classText[0].innerHTML = "Selecting the class name"
+
+
+// =================== querySelector(".myclass") =================
+// id = #, class = ., tag = tagname
+
+let querySel = document.querySelector("#demoH3");
+console.log(querySel);
+
+querySel.innerHTML = "Query Selector";
+
+
+// ================= element.setAttribute = new value =================
+
+let mybox = document.getElementById('box');
+mybox.setAttribute('style', 'width: 300px; height: 300px; background: green;')
+
+
+let img = document.getElementById('setAtt');
+img.setAttribute('src', 'https://cdn-icons-png.flaticon.com/512/3135/3135715.png');
+img.setAttribute('width', '80px');
+img.setAttribute('style', 'background: red; padding: 20px; border-radius: 8px')
+
+
+// ================== element.style.property = new style =======================
+
+let btn = document.getElementById('submit-btn');
+
+btn.onmouseover = function() {
+    btn.style.backgroundColor= "red";
+}
+
+btn.onmouseout = function() {
+    btn.style.backgroundColor= "initial";
+}
