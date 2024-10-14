@@ -94,3 +94,9 @@ Install Extension: Live Server, Prettier - Code formatter
     1. Finding HTML Elements - DOM
     2. Changing HTML Elements - DOM
     3. Adding and Deleting Elements - DOM
+
+# Day 13 - JS Intermediate (14-10-24)
+    1. Revise the DOM
+    2. Changing HTML Elements
+    3. Adding and Deleting Elements
+    4. Password Visibility Project

@@ -86,7 +86,9 @@ let allP = document.getElementsByTagName('p');
 console.log(allP);
 
 allP[0].innerHTML = "Learning JS DOM";
-allP[0].style.backgroundColor = "red";
+allP[0].style.backgroundColor = "green";
+
+console.log(allP.length);
 
 // for (let i = 0; i < allP.length; i++) {
 //     allP[i].innerHTML = "Learning JS DOM";
@@ -114,7 +116,7 @@ querySel.innerHTML = "Query Selector";
 // ================= element.setAttribute = new value =================
 
 let mybox = document.getElementById('box');
-mybox.setAttribute('style', 'width: 300px; height: 300px; background: green;')
+mybox.setAttribute('style', 'width: 300px; height: 300px; background: yellow;')
 
 
 let img = document.getElementById('setAtt');
@@ -134,3 +136,78 @@ btn.onmouseover = function() {
 btn.onmouseout = function() {
     btn.style.backgroundColor= "initial";
 }
+
+// ------------------------------
+
+let h5 = document.getElementById('dom');
+console.log(h5)
+
+h5.innerHTML = "We started to revise DOM";
+
+
+// --------------elem.hasAttribute(name)-------------------
+
+let imgs = document.getElementById('setAtt');
+console.log(imgs.hasAttribute('class'));
+
+console.log(imgs.getAttribute('src'));
+
+
+// --------------elem.getAttribute(name)-------------------
+
+let link = document.getElementById('link');
+console.log(link.getAttribute('href'));
+
+// ------------- elem.setAttribute(name, value) ----------------
+
+let div = document.getElementById('hello');
+div.setAttribute('class', 'hello_style');
+
+div.removeAttribute('id');
+
+// Adding and Deleting Elements
+// 1. document.createElement(elmentName)
+// 2. document.removeChild(elementName)
+// 3. document.appendChild(elementName)
+// 4. document.replaceChild(new, old) --- Taking this topic tomorrow
+// 5. document.write(text)
+
+
+// 1. create a new div element
+
+
+let newDiv = document.createElement('div');
+newDiv.textContent = "Hello World";
+
+document.body.appendChild(newDiv);
+
+//--------------------------
+
+let newDiv2 = document.createElement('div');
+let newbtn = document.createElement('button');
+newbtn.innerText = "Click Me";
+newbtn.className = "btn";
+
+newDiv2.appendChild(newbtn);
+
+document.body.appendChild(newDiv2);
+
+
+// --------- Replace child ----------
+
+// let parentDiv = document.getElementById('parentDiv');
+
+// let newDiv = document.createElement('div');
+
+// newDiv.textContent = "I'm replacing with old div";
+
+// let oldDiv = document.getElementById('oldDiv');
+
+// parentDiv.replaceChild(newDiv, oldDiv);
+
+
+
+
+// ---- document.write
+
+document.write("This is a simple text")
