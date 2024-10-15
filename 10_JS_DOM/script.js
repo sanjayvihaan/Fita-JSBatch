@@ -207,7 +207,19 @@ document.body.appendChild(newDiv2);
 
 
 
+let menu = document.getElementById('menu');
+
+//Creating new node
+let li = document.createElement('li');
+li.textContent = "Home";
+
+//Replace the first list item
+menu.replaceChild(li, menu.firstElementChild);
+
+
 
 // ---- document.write
 
 document.write("This is a simple text")
+
+

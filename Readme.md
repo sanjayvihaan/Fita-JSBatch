@@ -100,3 +100,13 @@ Install Extension: Live Server, Prettier - Code formatter
     2. Changing HTML Elements
     3. Adding and Deleting Elements
     4. Password Visibility Project
+
+
+# Day 14 - JS Intermediate (15-10-24)
+    1. ReplaceChild - DOM
+    2. ColorPicker - Project
+    3. JavaScript Events
+        1. Onchange
+        2. Change
+        3. onClick
+        4. Click
