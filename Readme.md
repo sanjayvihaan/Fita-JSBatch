@@ -110,3 +110,13 @@ Install Extension: Live Server, Prettier - Code formatter
         2. Change
         3. onClick
         4. Click
+
+# Day 15 - JS Intermediate (16-10-24)
+    1. Onmouseover
+    2. Onmouseout
+    3 Onkeydown
+    4. Onload
+
+    5. JS Objects
+
+    

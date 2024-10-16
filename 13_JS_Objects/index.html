@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object in JavaScriptObject in JavaScript</title>
+</head>
+<body>
+    <h1>Object in JavaScript</h1>
+
+    <pre>
+        syntax:
+            let object_name = {}
+
+        let student = {
+            name: "Ram",
+            age: 20,
+            course: "Btech"
+        }
+
+        console.log(student);
+        console.log(student.name); // Ram - accessing using dot notation
+        console.log(student.age); // 20 - accessing using array notation
+    </pre>
+
+    <hr>
+    <h2>Property</h2>
+    <p>Add a property to object</p>
+
+    <pre>
+        let data = {
+            name: "Ram",
+            age: 20,
+            course: "Btech",
+            city: "Bangalore"
+        }
+
+    
+    </pre>
+    <hr>
+
+
+    <p>Deleting a property to object</p>
+
+    <pre>
+        let object_name = {}
+        delete object_name.property;
+    </pre>
+
+    <hr>
+
+    <p>Check if property exists or not</p>
+    <pre>
+        let infos = {
+            "index": 0,
+            "isActive": false,
+            "balance": "$3,513.89",
+            "picture": "http://placehold.it/32x32",
+            "age": 22,
+            "eyeColor": "green",
+            "name": "Mcintosh Parrish",
+            "gender": "male",
+            "company": "SUREMAX",
+            "email": "mcintoshparrish@suremax.com",
+            "phone": "+1 (900) 560-3053",
+        }
+
+        console.log("age" in infos)
+    </pre>
+    <hr>
+
+
+    <p>For in loop through objects</p>
+    <pre>
+        syntax: 
+            for(let var in object_name);
+
+        let bank = {
+            "index": 0,
+            "isActive": false,
+            "balance": "$3,513.89",
+            "picture": "http://placehold.it/32x32",
+            "age": 22,
+            "eyeColor": "green",
+            "name": "Mcintosh Parrish",
+            "gender": "male",
+            "company": "SUREMAX",
+            "email": "mcintoshparrish@suremax.com",
+            "phone": "+1 (900) 560-3053",
+            "city": 'Bangalore',
+            "BankName": "SBI",
+        }
+
+        for (let key in bank){
+            console.log(key);
+        }
+
+        for (let key in bank) {
+            console.log(`${key} : ${bank[key]}`)
+        }
+    </pre>
+    <hr>
+
+    <p>Method / Action Object</p>
+
+    let person = {
+        name: "Sanjay",
+        age: 20,
+        sayHello: function() {
+            console.log("Yu said Hello!");
+        }
+    }
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
