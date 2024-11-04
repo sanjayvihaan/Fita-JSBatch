@@ -118,5 +118,16 @@ Install Extension: Live Server, Prettier - Code formatter
     4. Onload
 
     5. JS Objects
+        1. add a property to object
+        2. Delete property
+        3. Check if property exists
+        4. For loop through objects
+        5. Method / Action
 
+# Day 16 - JS Intermediate (04-11-24)
+    1. Objects - Method/Actions (4 methods)
+    2. This Keyword
+    3. Real World Examples on Object - Methods
+    4. Math Object
+    5. Generating the Random number
     
