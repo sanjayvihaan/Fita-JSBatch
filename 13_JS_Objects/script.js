@@ -241,3 +241,98 @@ console.log(random);
 
 let range = Math.floor(Math.random() * (30 - 15)) + 15; // Math.floor(Math.random() * (max-num - min-num)) + min-num
 console.log(range)
+
+
+// Date Object
+let currentDate = new Date();
+console.log(currentDate);
+
+let date = new Date(2020, 2, 19, 8, 30, 5, 8); // Year, month(0-11), day, hour, minute, second, milisecond
+console.log(date);
+
+// getFunction
+
+console.log("Date: " + currentDate.getDate());
+console.log("Month: " + currentDate.getMonth());
+console.log("Hours : " + currentDate.getHours());
+console.log("Minutes : " + currentDate.getMinutes());
+console.log("Seconds : " + currentDate.getSeconds());
+console.log("Time(in seconds) : " + currentDate.getTime());
+
+
+// setFunction
+let setDate  = new Date();
+console.log("Current Date: " + setDate);
+setDate.setFullYear(2025);
+setDate.setMonth(9);
+setDate.setHours(9);
+
+console.log("Changes In Date: " + setDate)
+
+// Creating a new object using 'new' keyword
+
+let objects = {}
+console.log(typeof(objects))
+
+
+let newObject = new Object();
+
+newObject.Name = "Sanjay";
+newObject.age = 20;
+newObject.city = "Bangalore";
+
+console.log(newObject);
+console.log(typeof(newObject));
+
+
+// getter
+
+let getter = {
+    name: "Sanjay",
+    lastName: "V",
+    get getname() {
+        return this.name.toUpperCase();
+    }
+};
+
+console.log(getter.getname);
+console.log(getter)
+// setter
+
+let setter = {
+    id: "S001",
+    name: "Ram",
+    college: "BIT",
+    set setCollege(name) {
+        this.name = name.toLowercase();
+        return this.college;
+    }
+}
+
+
+setter.college = "IIT GOA";
+console.log(setter.college);
+console.log(setter);
+
+
+// Nested Object
+
+let userData = {
+    user_id: 22,
+    logIn_date: "06/11/2024",
+    personal_info: {
+        name: "Sanjay",
+        age: 20,
+        email: "sanjay@gmail.com",
+        address: {
+            street: "Abc",
+            city: "Bangalore",
+            state: "Karnataka",
+            country: "India"
+        }
+    }
+}
+
+console.log(userData);
+console.log(userData.personal_info);
+console.log(userData.personal_info.address);

@@ -131,3 +131,11 @@ Install Extension: Live Server, Prettier - Code formatter
     4. Math Object
     5. Generating the Random number
     
+
+# Day 17 - JS Intermediate (06-11-24)
+    1. Date Object - setFunction, getfunction etc
+    2. Setter, Getter
+    3. Nested Objects
+    4. JavaScript OOPS
+        1. Objects
+        2. Classes
