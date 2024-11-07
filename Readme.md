@@ -139,3 +139,7 @@ Install Extension: Live Server, Prettier - Code formatter
     4. JavaScript OOPS
         1. Objects
         2. Classes
+
+# Day 18 - JS Intermediate (07-11-24)
+    1. Classes and Objects
+    2. Minimizing Redundancy using Inheritance
