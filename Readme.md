@@ -143,3 +143,20 @@ Install Extension: Live Server, Prettier - Code formatter
 # Day 18 - JS Intermediate (07-11-24)
     1. Classes and Objects
     2. Minimizing Redundancy using Inheritance
+    3. Browser Compability
+
+
+# Day 19 - JS Intermediate (08-11-24)
+    1. JavaScript Cookies
+        Maximum size per cookie = ~4kb
+        Stored as plain text, so senstive information should not be stored directly
+
+    Alternative to cookies - 
+        Local Stroage: Better for larger data with no expiration
+        Session Storage: For data that should be only peresist during a single session.
+
+    Security Concerns:
+        Always sanitize data stored in cookies.
+        User Secure and HttpOnly flags to protect senstive cookies.
+       
+    
