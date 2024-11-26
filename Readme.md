@@ -146,7 +146,7 @@ Install Extension: Live Server, Prettier - Code formatter
     3. Browser Compability
 
 
-# Day 19 - JS Intermediate (08-11-24)
+# Day 20 - JS Intermediate (20-11-24)
     1. JavaScript Cookies
         Maximum size per cookie = ~4kb
         Stored as plain text, so senstive information should not be stored directly
