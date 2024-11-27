@@ -159,4 +159,11 @@ Install Extension: Live Server, Prettier - Code formatter
         Always sanitize data stored in cookies.
         User Secure and HttpOnly flags to protect senstive cookies.
        
+
+# Day 21 - JS Intermediate (27-11-24)
+    1. AJAX -  Asynchronous JavaScript And XML
+        Read data from web server - after the page has loaded
+        Update the web page without reloading the page
+        Send data to web server - in the background
     
+    2. Fetch API
