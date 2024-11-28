@@ -167,3 +167,6 @@ Install Extension: Live Server, Prettier - Code formatter
         Send data to web server - in the background
     
     2. Fetch API
+
+# Day 21 - JS Intermediate (28-11-24)
+    AJAX and Fetch API - Sample Login System
