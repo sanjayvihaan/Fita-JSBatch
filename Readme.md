@@ -170,3 +170,5 @@ Install Extension: Live Server, Prettier - Code formatter
 
 # Day 21 - JS Intermediate (28-11-24)
     AJAX and Fetch API - Sample Login System
+
+# Day 22 - JS TODO Project
